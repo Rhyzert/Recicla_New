@@ -1,8 +1,15 @@
-﻿using System;
+﻿using Domain.Entities;
+using System;
 
-public class IColetaRepository
+namespace Infrastructure.Interface
 {
-	public IColetaRepository()
-	{
-	}
+
+    public interface ITipoReciclavelRepository
+    {
+        public TipoReciclavel GetTipoReciclavel(int id);
+        public List<TipoReciclavel> GetTiposReciclaveis();
+        public void InsertTipoReciclavel(TipoReciclavel tipoReciclavel);
+        public void UpdateTipoReciclavel(TipoReciclavel tipoReciclavel);
+        public void DeleteTipoReciclavel(TipoReciclavel tipoReciclavel);
+    }
 }

@@ -1,8 +1,15 @@
-﻿using System;
+﻿using Domain.Entities;
+using System;
 
-public class IColetaRepository
+namespace Infrastructure.Interface
 {
-	public IColetaRepository()
-	{
-	}
+    public interface ILixoRepository
+    {
+        public Lixo GetLixo(int id);
+        public List<Lixo> GetLixos();
+        public void InsertLixo(Lixo lixo);
+        public void UpdateLixo(Lixo lixo);
+        public void DeleteLixo(Lixo lixo);
+    }
+
 }
