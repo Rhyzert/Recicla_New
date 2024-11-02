@@ -1,0 +1,15 @@
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\KaduGay\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\KaduGay\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\KaduGay\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.dll
+C:\KaduGay\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.pdb
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.dll
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.pdb
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\KaduGay\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\ref\Domain.dll
