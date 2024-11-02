@@ -2,7 +2,6 @@
 using Infrastructure.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
-using Infrastructure;
 
 namespace Infrastructure.Repository
 {
@@ -11,7 +10,7 @@ namespace Infrastructure.Repository
 
         private readonly SqlContext _context;
 
-        public ColetaRepositorySqlServer(SqlContext context)
+        public ColetaRepository(SqlContext context)
         {
             _context = context;
         }

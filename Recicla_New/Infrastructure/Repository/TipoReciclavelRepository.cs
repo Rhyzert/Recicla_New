@@ -1,7 +1,7 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
-using static Infrastructure.Context;
+using Infrastructure.Interface;
 
 namespace Infrastructure.Repository
 {

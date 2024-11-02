@@ -2,7 +2,6 @@ using ApplicationService.Application;
 using ApplicationService.Interface;
 using Infrastructure.Interface;
 using Infrastructure.Repository;
-using DDD.Infra.SQLServer.Repositories;
 using ServiceDomain.Interface;
 using ServiceDomain.Service;
 using Microsoft.IdentityModel.Tokens;
@@ -24,7 +23,6 @@ builder.Services.AddCors(options =>
 
 // Add services to the container.
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-
 builder.Services.AddScoped<IItemColetadoRepository, ItemColetadoRepository>();
 builder.Services.AddScoped<IColetaRepository, ColetaRepository>();
 builder.Services.AddScoped<IVeiculoRepository, VeiculoRepository>();

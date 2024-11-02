@@ -9,7 +9,7 @@ namespace Domain.Entities
     {
         [Key]
         public int Id { get; set; }
-        public Cidade Cidade { get; set; }
+        public string Cidade { get; set; }
         public string CEP { get; set; }
         public string? Endereco { get; set; }
         public int Numero { get; set; }

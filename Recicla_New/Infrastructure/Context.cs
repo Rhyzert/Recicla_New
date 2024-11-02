@@ -16,15 +16,9 @@ namespace Infrastructure
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ReciclaNew");
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+ 
 
-            modelBuilder.Entity<User>().UseTpcMappingStrategy();
-            /* modelBuilder.Entity<ClienteFuncionario>().UseTpcMappingStrategy();*/
-            //https://learn.microsoft.com/pt-br/ef/core/modeling/inheritance
-        }
-
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<ItemColetado> ItensColetados { get; set; }
         public DbSet<Coleta> Coletas { get; set; }
         public DbSet<Veiculo> Veiculos { get; set; }

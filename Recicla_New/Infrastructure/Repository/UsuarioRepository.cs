@@ -29,23 +29,23 @@ namespace Infrastructure.Repository
             }
         }
 
-        public Usuario GetUsuarioById(int id)
+        public Usuario GetUsuario(int id)
         {
-            return _context.Usuario.Find(id);
+            return _context.Usuarios.Find(id);
         }
 
-        public List<Usuario> GetUsuario()
+        public List<Usuario> GetUsuarios()
         {
             //return  _context.Alunos.Include(x => x.Disciplinas).ToList();
-            return _context.Usuario.ToList();
+            return _context.Usuarios.ToList();
 
         }
 
-        public void InsertFuncionario(Usuario usuario)
+        public void InsertUsuario(Usuario usuario)
         {
             try
             {
-                _context.Usuario.Add(usuario);
+                _context.Usuarios.Add(usuario);
                 _context.SaveChanges();
             }
             catch (Exception ex)
@@ -71,11 +71,11 @@ namespace Infrastructure.Repository
             }
         }
 
-        public void InsertUsuario(Usuario usuario)
+        public void InsertUsuarios(Usuario usuario)
         {
             try
             {
-                _context.Usuario.Add(usuario);
+                _context.Usuarios.Add(usuario);
                 _context.SaveChanges();
             }
             catch (Exception ex)
@@ -85,9 +85,5 @@ namespace Infrastructure.Repository
             }
         }
 
-        public Usuario? GetUsuarioByEmail(string email)
-        {
-            return _context.Usuario.Where(x => x.Email == email).FirstOrDefault();
-        }
     }
 }

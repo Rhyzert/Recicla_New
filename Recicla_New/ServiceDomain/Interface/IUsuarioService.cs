@@ -10,12 +10,9 @@ namespace ServiceDomain.Interface
     public interface IUsuarioService
     {
         void DeleteUsuario(int id);
-        Usuario GetUsuarioById(int id);
-        List<Usuario> GetUsuario();
+        Usuario GetUsuario(int id);
+        List<Usuario> GetUsuarios();
         void InsertUsuario(Usuario usuario);
         void UpdateUsuario(Usuario usuario);
-
-        string Login(LoginViewModel loginViewModel);
-        Usuario GetUsuarioByEmail(string email);
     }
 }

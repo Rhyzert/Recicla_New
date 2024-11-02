@@ -2,7 +2,6 @@
 using Infrastructure.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
-using static Infrastructure.Context;
 
 namespace Infrastructure.Repository
 {
