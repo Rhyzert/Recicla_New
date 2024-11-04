@@ -11,13 +11,14 @@ namespace Domain.Entities
     [Table("Usuarios")]
     public class Usuario
     {
-        [Key]
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
         public string NomeCompleto { get; set; }
+
+        [Key]
         public string Cpf {  get; set; }
         public string Rg { get; set; }
         public int Tipo { get; set; }
