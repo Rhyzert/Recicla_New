@@ -29,14 +29,11 @@ builder.Services.AddScoped<IVeiculoRepository, VeiculoRepository>();
 builder.Services.AddScoped<IColetadorRepository, ColetadorRepository>();
 
 //Dependency Injection Application
-//builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
-//builder.Services.AddScoped<IEstadoApplication, EstadoApplication>();
-//builder.Services.AddScoped<IBairroApplication, BairroApplication>();
-//builder.Services.AddScoped<IItemColetadoApplication, ItemColetadoApplication>();
-//builder.Services.AddScoped<ICidadeApplication, CidadeApplication>();
-//builder.Services.AddScoped<IColetaApplication, ColetaApplication>();
-//builder.Services.AddScoped<IVeiculoApplication, VeiculoApplication>();
-//builder.Services.AddScoped<IColetadorApplication, ColetadorApplication>();
+builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
+builder.Services.AddScoped<IItemColetadoApplication, ItemColetadoApplication>();
+builder.Services.AddScoped<IColetaApplication, ColetaApplication>();
+builder.Services.AddScoped<IVeiculoApplication, VeiculoApplication>();
+builder.Services.AddScoped<IColetadorApplication, ColetadorApplication>();
 
 
 

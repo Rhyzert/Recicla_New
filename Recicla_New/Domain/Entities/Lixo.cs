@@ -13,13 +13,5 @@ namespace Domain.Entities
         public float? Peso { get; set; }
         public TipoReciclavel Tipo { get; set; }
 
-        public Lixo(string descricao, string cor, float peso, TipoReciclavel tipo)
-        {
-            Descricao = descricao;
-            Cor = cor;
-            Peso = peso;
-            Tipo = tipo;
-        }
-
     }
 }
