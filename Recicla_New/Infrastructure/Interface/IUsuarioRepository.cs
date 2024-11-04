@@ -8,6 +8,7 @@ namespace Infrastructure.Interface
     {
         public List<Usuario> GetUsuarios();
         public Usuario GetUsuario(int id);
+        public Usuario LoginUsuario(string username, string password);
         public void InsertUsuario(Usuario usuario);
         public void UpdateUsuario(Usuario usuario);
         public void DeleteUsuario(Usuario usuario);

@@ -4,6 +4,7 @@ using ApplicationService.Interface;
 using Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DDD.Application.Api.Controllers
@@ -55,6 +56,20 @@ namespace DDD.Application.Api.Controllers
 
                 throw;
             }
+        }
+
+        [HttpGet("{login}")]
+        [Route("api/login")]
+        public IActionResult LoginUsuario(string username ,string passwordt)
+        {
+            var user = _usuarioApplication.LoginUsuario(username, passwordt);
+            if (user == null)
+            {
+                return Unauthorized("Usuário ou senha incorretos");
+            }
+
+            // Retorna uma resposta com o usuário ou um token de autenticação
+            return Ok(user);
         }
 
         [HttpDelete("{id}")]

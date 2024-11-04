@@ -29,10 +29,24 @@ namespace Infrastructure.Repository
             }
         }
 
+        public Usuario LoginUsuario(string username, string password)
+        {
+            try
+            {
+                return _context.Usuarios.FirstOrDefault(u => u.Login == username && u.Password == password);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public Usuario GetUsuario(int id)
         {
             return _context.Usuarios.Find(id);
         }
+
+
 
         public List<Usuario> GetUsuarios()
         {

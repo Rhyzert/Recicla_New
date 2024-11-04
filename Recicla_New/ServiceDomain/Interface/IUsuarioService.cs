@@ -12,6 +12,7 @@ namespace ServiceDomain.Interface
         void DeleteUsuario(int id);
         Usuario GetUsuario(int id);
         List<Usuario> GetUsuarios();
+        Usuario LoginUsuario(string username, string password);
         void InsertUsuario(Usuario usuario);
         void UpdateUsuario(Usuario usuario);
     }

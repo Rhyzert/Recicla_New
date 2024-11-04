@@ -12,6 +12,7 @@ namespace ApplicationService.Interface
         void DeleteUsuario(int id);
         List<Usuario> GetUsuario();
         Usuario GetUsuario(int id);
+        Usuario LoginUsuario(string username, string password);
         void InsertUsuario(Usuario usuario);
         void UpdateUsuario(Usuario usuario);
     }

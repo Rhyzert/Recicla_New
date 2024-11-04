@@ -23,7 +23,11 @@ namespace ServiceDomain.Service
         {
             return _usuarioRepository.GetUsuarios();
         }
-
+        
+        public Usuario LoginUsuario(string username, string password)
+        {
+            return _usuarioRepository.LoginUsuario(username, password);
+        }
         public Usuario GetUsuario(int id)
         {
             return _usuarioRepository.GetUsuario(id);

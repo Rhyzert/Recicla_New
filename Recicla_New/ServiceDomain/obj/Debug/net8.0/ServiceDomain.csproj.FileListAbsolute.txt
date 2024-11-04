@@ -54,3 +54,5 @@ C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ServiceDomain\obj\Debug\net8
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ServiceDomain\obj\Debug\net8.0\ServiceDomain.pdb
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ServiceDomain\obj\Debug\net8.0\ServiceDomain.genruntimeconfig.cache
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ServiceDomain\obj\Debug\net8.0\ref\ServiceDomain.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\ServiceDomain\bin\Debug\net8.0\ServiceDomain.runtimeconfig.json
+D:\KaduSuperGay\Recicla_New\Recicla_New\ServiceDomain\obj\Debug\net8.0\ServiceDomain.genruntimeconfig.cache
