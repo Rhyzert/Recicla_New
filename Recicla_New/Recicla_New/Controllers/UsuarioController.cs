@@ -59,7 +59,6 @@ namespace DDD.Application.Api.Controllers
         }
 
         [HttpGet("{login}")]
-        [Route("api/login")]
         public IActionResult LoginUsuario(string username ,string passwordt)
         {
             var user = _usuarioApplication.LoginUsuario(username, passwordt);
