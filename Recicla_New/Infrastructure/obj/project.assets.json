@@ -1451,6 +1451,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.2.0",
           "Microsoft.SqlServer.Server": "1.0.0"
         },
         "compile": {
@@ -3754,6 +3755,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
+      "Microsoft.IdentityModel.JsonWebTokens >= 8.2.0",
       "Microsoft.SqlServer.Server >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 8.2.0"
     ]
@@ -3820,6 +3822,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.10, )"
+          },
+          "Microsoft.IdentityModel.JsonWebTokens": {
+            "target": "Package",
+            "version": "[8.2.0, )"
           },
           "Microsoft.SqlServer.Server": {
             "target": "Package",
