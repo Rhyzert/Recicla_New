@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Domain.Entities
 {
     [Table("Usuarios")]
-    public class Usuario
+    public class User
     {
         //public int Id { get; set; }
         public string Login { get; set; }

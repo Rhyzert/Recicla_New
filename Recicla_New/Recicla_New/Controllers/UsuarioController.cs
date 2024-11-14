@@ -22,13 +22,13 @@ namespace DDD.Application.Api.Controllers
 
         // GET: api/<AlunosController>
         [HttpGet]
-        public ActionResult<List<Usuario>> Get()
+        public ActionResult<List<User>> Get()
         {
             return Ok(_usuarioApplication.GetUsuario());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Usuario> GetById(int id)
+        public ActionResult<User> GetById(int id)
         {
             return Ok(_usuarioApplication.GetUsuario(id));
         }
@@ -36,7 +36,7 @@ namespace DDD.Application.Api.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public ActionResult<Usuario> CreateUsuario(Usuario usuario)
+        public ActionResult<User> CreateUsuario(User usuario)
         {
 
             _usuarioApplication.InsertUsuario(usuario);
@@ -44,7 +44,7 @@ namespace DDD.Application.Api.Controllers
         }
 
         [HttpPut]
-        public ActionResult Put([FromBody] Usuario usuario)
+        public ActionResult Put([FromBody] User usuario)
         {
             try
             {

@@ -17,27 +17,27 @@ namespace ApplicationService.Application
         {
             _usuarioService = usuarioService;
         }
-        public List<Usuario> GetUsuario()
+        public List<User> GetUsuario()
         {
             return _usuarioService.GetUsuarios();
         }
 
-        public Usuario LoginUsuario(string username, string password)
+        public User LoginUsuario(string username, string password)
         {
             return _usuarioService.LoginUsuario(username, password);
         }
 
-        public Usuario GetUsuario(int id)
+        public User GetUsuario(int id)
         {
             return _usuarioService.GetUsuario(id);
         }
 
-        public void InsertUsuario(Usuario usuario)
+        public void InsertUsuario(User usuario)
         {
             _usuarioService.InsertUsuario(usuario);
         }
 
-        public void UpdateUsuario(Usuario usuario)
+        public void UpdateUsuario(User usuario)
         {
             _usuarioService.UpdateUsuario(usuario);
         }

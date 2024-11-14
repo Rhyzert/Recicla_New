@@ -10,10 +10,10 @@ namespace ApplicationService.Interface
     public interface IUsuarioApplication
     {
         void DeleteUsuario(int id);
-        List<Usuario> GetUsuario();
-        Usuario GetUsuario(int id);
-        Usuario LoginUsuario(string username, string password);
-        void InsertUsuario(Usuario usuario);
-        void UpdateUsuario(Usuario usuario);
+        List<User> GetUsuario();
+        User GetUsuario(int id);
+        User LoginUsuario(string username, string password);
+        void InsertUsuario(User usuario);
+        void UpdateUsuario(User usuario);
     }
 }

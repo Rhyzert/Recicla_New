@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\interface\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\common\\interfaces\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\common\\interfaces\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\lixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\lixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\ilixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\ilixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\coletador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\coletador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,8 +110,177 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IDateTimeProvider.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IDateTimeProvider.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IDateTimeProvider.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IDateTimeProvider.cs",
+              "RelativeToolTip": "ApplicationService\\Interface\\IDateTimeProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:09:42.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
+              "RelativeToolTip": "Infrastructure\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:05:29.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationResult.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Common\\Interfaces\\Authentication\\AuthenticationResult.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Common\\Interfaces\\Authentication\\AuthenticationResult.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Common\\Interfaces\\Authentication\\AuthenticationResult.cs",
+              "RelativeToolTip": "ApplicationService\\Common\\Interfaces\\Authentication\\AuthenticationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:04:06.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IAuthenticationService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IAuthenticationService.cs",
+              "RelativeToolTip": "ServiceDomain\\Interface\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:38:03.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\AuthService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\AuthService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:37:43.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\AuthenticationService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\AuthenticationService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:37:40.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:35:20.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T17:16:11.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LixoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\LixoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\LixoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:14:37.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ILixoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ILixoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\ILixoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ILixoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\ILixoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:13:43.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\IJwtTokenGenerator.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\IJwtTokenGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:13:23.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:12:58.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Program.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
+              "RelativeToolTip": "Recicla_New\\Program.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAswIAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:00:45.319Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -82,20 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioApplication.cs",
-              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\UsuarioApplication.cs",
-              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\UsuarioApplication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T16:09:08.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "TipoReciclavelService.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\TipoReciclavelService.cs",
               "RelativeDocumentMoniker": "ServiceDomain\\Service\\TipoReciclavelService.cs",
@@ -108,7 +316,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:41:27.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Application\\UsuarioApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Application\\UsuarioApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:09:08.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LixoService.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\LixoService.cs",
               "RelativeDocumentMoniker": "ServiceDomain\\Service\\LixoService.cs",
@@ -121,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\UsuarioService.cs",
               "RelativeDocumentMoniker": "ServiceDomain\\Service\\UsuarioService.cs",
@@ -134,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IUsuarioService.cs",
@@ -147,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "IUsuarioApplication.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IUsuarioApplication.cs",
               "RelativeDocumentMoniker": "ApplicationService\\Interface\\IUsuarioApplication.cs",
@@ -160,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interface\\IUsuarioRepository.cs",
@@ -173,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\UsuarioRepository.cs",
@@ -186,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Recicla_New\\Controllers\\UsuarioController.cs",
@@ -199,32 +433,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
-              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:41:27.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "Coletador.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coletador.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Coletador.cs",
               "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coletador.cs",
               "RelativeToolTip": "Domain\\Entities\\Coletador.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:38:15.634Z"
+              "WhenOpened": "2024-11-04T15:38:15.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Lixo.cs",
               "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Lixo.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Lixo.cs",
@@ -232,7 +454,8 @@
               "RelativeToolTip": "Domain\\Entities\\Lixo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:40:16.115Z"
+              "WhenOpened": "2024-11-04T14:40:16.115Z",
+              "EditorCaption": ""
             }
           ]
         },

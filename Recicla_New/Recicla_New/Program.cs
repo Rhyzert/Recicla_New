@@ -8,6 +8,11 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using Infrastructure;
+using Microsoft.AspNetCore.DataProtection;
+using System.Runtime.Intrinsics.Arm;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 //using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -95,9 +100,52 @@ builder.Services.AddSwaggerGen(c =>
 }
 );
 
-
+/*
+const string AuthScheme = "cookie"
+builder.Services.AddAuthentication("cookie")
+    .AddCookie("cookie");*/
 var app = builder.Build();
 
+
+/*app.UseAuthentication();
+
+app.MapGet("/username", (HttpContext ctx) =>
+{
+    return ctx.User.FindFirst("usr").Value;
+
+});
+
+app.MapGet("/login", async (HttpContext ctx) =>
+{
+    *//*auth.SignIn();*//*
+    var claims = new List<Claim>();
+    claims.Add(new Claim("usr","anton"));
+    var identity = new ClaimsIdentity(claims, "cookie");
+    var user = new ClaimsPrincipal(identity);
+
+
+    await ctx.SignInAsync("cookie",user);
+    return "ok";
+});*/
+
+/*public class AuthService
+{
+    private readonly IDataProtectionProvider _idp;
+    private readonly IHttpContextAccessor _accessor;
+
+    public AuthService(IDataProtectionProvider idp, IHttpContextAccessor accessor)
+    {
+        _idp = idp;
+        _accessor = accessor;
+    }
+
+    public void SignIn()
+    {
+        var protector = _idp.CreateProtector("auth-cookie");
+        _accessor.HttpContext.Response.Headers["set-cookie"] = $"auth={protector.Protect("usr:anton")}";
+    }
+};
+*/
 // Configure the HTTP request pipeline.
 
 app.UseSwagger();

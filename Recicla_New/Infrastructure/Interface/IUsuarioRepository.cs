@@ -6,11 +6,11 @@ namespace Infrastructure.Interface
 
     public interface IUsuarioRepository
     {
-        public List<Usuario> GetUsuarios();
-        public Usuario GetUsuario(int id);
-        public Usuario LoginUsuario(string username, string password);
-        public void InsertUsuario(Usuario usuario);
-        public void UpdateUsuario(Usuario usuario);
-        public void DeleteUsuario(Usuario usuario);
+        public List<User> GetUsuarios();
+        public User GetUsuario(int id);
+        public User LoginUsuario(string username, string password);
+        public void InsertUsuario(User usuario);
+        public void UpdateUsuario(User usuario);
+        public void DeleteUsuario(User usuario);
     }
 }

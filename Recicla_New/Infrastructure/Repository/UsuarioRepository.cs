@@ -15,11 +15,11 @@ namespace Infrastructure.Repository
             _context = context;
         }
 
-        public void DeleteUsuario(Usuario usuario)
+        public void DeleteUsuario(User usuario)
         {
             try
             {
-                _context.Set<Usuario>().Remove(usuario);
+                _context.Set<User>().Remove(usuario);
                 _context.SaveChanges();
             }
             catch (Exception ex)
@@ -29,7 +29,7 @@ namespace Infrastructure.Repository
             }
         }
 
-        public Usuario LoginUsuario(string username, string password)
+        public User LoginUsuario(string username, string password)
         {
             try
             {
@@ -41,21 +41,21 @@ namespace Infrastructure.Repository
             }
         }
 
-        public Usuario GetUsuario(int id)
+        public User GetUsuario(int id)
         {
             return _context.Usuarios.Find(id);
         }
 
 
 
-        public List<Usuario> GetUsuarios()
+        public List<User> GetUsuarios()
         {
             //return  _context.Alunos.Include(x => x.Disciplinas).ToList();
             return _context.Usuarios.ToList();
 
         }
 
-        public void InsertUsuario(Usuario usuario)
+        public void InsertUsuario(User usuario)
         {
             try
             {
@@ -70,7 +70,7 @@ namespace Infrastructure.Repository
         }
 
 
-        public void UpdateUsuario(Usuario usuario)
+        public void UpdateUsuario(User usuario)
         {
             try
             {
@@ -85,7 +85,7 @@ namespace Infrastructure.Repository
             }
         }
 
-        public void InsertUsuarios(Usuario usuario)
+        public void InsertUsuarios(User usuario)
         {
             try
             {

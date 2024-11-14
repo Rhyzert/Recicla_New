@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {}
+    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {}
   },
   "projects": {
-    "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
+    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
+        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
         "projectName": "ApplicationService",
-        "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
+        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\obj\\",
+        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               },
-              "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
-                "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
+              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
               }
             }
           }
@@ -92,25 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\obj\\",
+        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,25 +169,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
+        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,8 +198,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               }
             }
           }
@@ -248,6 +236,10 @@
             "Microsoft.SqlServer.Server": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             }
           },
           "imports": [
@@ -266,25 +258,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
+        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
         "projectName": "ServiceDomain",
-        "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
+        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\obj\\",
+        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -299,11 +287,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               },
-              "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
+              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -346,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

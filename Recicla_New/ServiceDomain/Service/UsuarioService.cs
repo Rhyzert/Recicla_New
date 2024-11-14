@@ -19,26 +19,26 @@ namespace ServiceDomain.Service
             _usuarioRepository = usuarioRepository;
         }
 
-        public List<Usuario> GetUsuarios()
+        public List<User> GetUsuarios()
         {
             return _usuarioRepository.GetUsuarios();
         }
         
-        public Usuario LoginUsuario(string username, string password)
+        public User LoginUsuario(string username, string password)
         {
             return _usuarioRepository.LoginUsuario(username, password);
         }
-        public Usuario GetUsuario(int id)
+        public User GetUsuario(int id)
         {
             return _usuarioRepository.GetUsuario(id);
         }
 
-        public void InsertUsuario(Usuario usuario)
+        public void InsertUsuario(User usuario)
         {
             _usuarioRepository.InsertUsuario(usuario);
         }
 
-        public void UpdateUsuario(Usuario usuario)
+        public void UpdateUsuario(User usuario)
         {
             _usuarioRepository.UpdateUsuario(usuario);
         }
