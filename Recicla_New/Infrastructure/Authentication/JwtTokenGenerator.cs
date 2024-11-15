@@ -1,5 +1,4 @@
-﻿using Infrastructure.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -8,16 +7,29 @@ using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection.Metadata.Ecma335;
+using Infrastructure.Authentication.Interfaces;
+using Microsoft.Extensions.Options;
 
 namespace Infrastructure.Authentication
 {
     public class JwtTokenGenerator : IJwtTokenGenerator
     {
+        private readonly JwtSettings _jwtSettings;
+        private readonly IDateTimeProvider _dateTimeProvider;
+
+        public JwtTokenGenerator(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtOptions)
+        {
+            _dateTimeProvider = dateTimeProvider;
+            _jwtSettings = jwtOptions.Value;
+
+        }
+
         public string GenerateToken(Guid userId, string firstName, string lastName)
         {
             var signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes("super-secret-key")), SecurityAlgorithms.HmacSha256);
+                        Encoding.UTF8.GetBytes(_jwtSettings.Secret)),
+                SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, firstName+" " + lastName),
@@ -28,8 +40,9 @@ namespace Infrastructure.Authentication
             };
 
             var securityToken = new JwtSecurityToken(
-                issuer: "BuberDinner",
-                expires: DateTime.Now.AddDays(1),
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                expires: _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpireMinutes),
                 claims: claims,
                 signingCredentials: signingCredentials);
 

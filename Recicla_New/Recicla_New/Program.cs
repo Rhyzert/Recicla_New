@@ -54,6 +54,8 @@ builder.Services.AddScoped<IColetadorService, ColetadorService>();
 ////Dependency Injection SqlContext
 builder.Services.AddScoped<SqlContext, SqlContext>();
 
+builder.Services.AddInfrastructure;
+
 //builder.Services.AddControllers().AddJsonOptions(x =>
 //   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
@@ -150,6 +152,7 @@ app.MapGet("/login", async (HttpContext ctx) =>
 
 app.UseSwagger();
 app.UseSwaggerUI();
+
 
 
 app.UseHttpsRedirection();

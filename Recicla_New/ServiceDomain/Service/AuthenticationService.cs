@@ -1,4 +1,4 @@
-﻿using Infrastructure.Interface;
+﻿using Infrastructure.Authentication.Interfaces;
 using Microsoft.Identity.Client;
 using ServiceDomain.Interface;
 using System;

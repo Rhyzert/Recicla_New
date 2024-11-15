@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationService.Interface
+namespace Infrastructure.Authentication.Interfaces
 {
-    internal class IDateTimeProvider
+    public class IDateTimeProvider
     {
+       public DateTime UtcNow {  get; }
     }
 }
