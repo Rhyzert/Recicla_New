@@ -7,6 +7,6 @@ using Domain.Entities;
 namespace ApplicationService.Common.Interfaces.Authentication
 {
     public record AuthenticationResult(
-        User User,
+        User usuario,
         string Token);
 }

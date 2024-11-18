@@ -27,14 +27,14 @@ builder.Services.AddCors(options =>
 });
 
 // Add services to the container.
-builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IItemColetadoRepository, ItemColetadoRepository>();
 builder.Services.AddScoped<IColetaRepository, ColetaRepository>();
 builder.Services.AddScoped<IVeiculoRepository, VeiculoRepository>();
 builder.Services.AddScoped<IColetadorRepository, ColetadorRepository>();
 
 //Dependency Injection Application
-builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
+builder.Services.AddScoped<IUserApplication, UserApplication>();
 builder.Services.AddScoped<IItemColetadoApplication, ItemColetadoApplication>();
 builder.Services.AddScoped<IColetaApplication, ColetaApplication>();
 builder.Services.AddScoped<IVeiculoApplication, VeiculoApplication>();
@@ -43,7 +43,7 @@ builder.Services.AddScoped<IColetadorApplication, ColetadorApplication>();
 
 
 //Dependency Injection Service
-builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IItemColetadoService, ItemColetadoService>();
 builder.Services.AddScoped<IColetaService, ColetaService>();
 builder.Services.AddScoped<IVeiculoService, VeiculoService>();
@@ -54,7 +54,7 @@ builder.Services.AddScoped<IColetadorService, ColetadorService>();
 ////Dependency Injection SqlContext
 builder.Services.AddScoped<SqlContext, SqlContext>();
 
-builder.Services.AddInfrastructure;
+//builder.Services.AddInfrastructure;
 
 //builder.Services.AddControllers().AddJsonOptions(x =>
 //   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);

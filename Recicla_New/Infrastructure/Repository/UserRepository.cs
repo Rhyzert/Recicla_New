@@ -5,14 +5,26 @@ using System;
 
 namespace Infrastructure.Repository
 {
-    public class UsuarioRepository : IUsuarioRepository
+    public class UserRepository : IUserRepository
     {
 
         private readonly SqlContext _context;
 
-        public UsuarioRepository(SqlContext context)
+        public UserRepository(SqlContext context)
         {
             _context = context;
+        }
+
+        public User UsuarioPorEmail(string email)
+        {
+          var userEmail =  _context.Usuarios.FirstOrDefault(x=> x.Email == email);
+          return userEmail;
+        }
+
+        public User UsuarioPorLogin(string login)
+        {
+            var usuario = _context.Usuarios.FirstOrDefault(x => x.Login == login);
+            return usuario;
         }
 
         public void DeleteUsuario(User usuario)

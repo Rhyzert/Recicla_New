@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationService.Interface
+namespace ServiceDomain.Interface
 {
-    public interface IUsuarioApplication
+    public interface IUserService
     {
         void DeleteUsuario(int id);
-        List<User> GetUsuario();
         User GetUsuario(int id);
+        List<User> GetUsuarios();
+        public User UsuarioPorEmail(string email);
         User LoginUsuario(string username, string password);
         void InsertUsuario(User usuario);
         void UpdateUsuario(User usuario);

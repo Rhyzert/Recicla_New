@@ -11,11 +11,11 @@ namespace DDD.Application.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuarioController : ControllerBase
+    public class UserController : ControllerBase
     {
-        readonly IUsuarioApplication _usuarioApplication;
+        readonly IUserApplication _usuarioApplication;
 
-        public UsuarioController(IUsuarioApplication usuarioApplication)
+        public UserController(IUserApplication usuarioApplication)
         {
             _usuarioApplication = usuarioApplication;
         }
@@ -40,7 +40,7 @@ namespace DDD.Application.Api.Controllers
         {
 
             _usuarioApplication.InsertUsuario(usuario);
-            return CreatedAtAction(nameof(GetById), new { id = usuario.NomeCompleto }, usuario);
+            return CreatedAtAction(nameof(GetById), new { id = usuario.Id }, usuario);
         }
 
         [HttpPut]

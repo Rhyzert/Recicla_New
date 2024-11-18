@@ -9,7 +9,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Reflection.Metadata.Ecma335;
 using Infrastructure.Authentication.Interfaces;
 using Microsoft.Extensions.Options;
-using Infrastructure.Interface;
 
 namespace Infrastructure.Authentication
 {
@@ -25,7 +24,7 @@ namespace Infrastructure.Authentication
 
         }
 
-        public string GenerateToken(Guid userId, string firstName, string lastName)
+        public string GenerateToken(Guid userId, string nome, string sobrenome)
         {
             var signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(
@@ -33,9 +32,9 @@ namespace Infrastructure.Authentication
                 SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, firstName+" " + lastName),
-                new Claim(JwtRegisteredClaimNames.GivenName , firstName),
-                new Claim(JwtRegisteredClaimNames.FamilyName , lastName),
+                new Claim(JwtRegisteredClaimNames.Sub, nome+" " + sobrenome),
+                new Claim(JwtRegisteredClaimNames.GivenName , nome),
+                new Claim(JwtRegisteredClaimNames.FamilyName , sobrenome),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
 
             };

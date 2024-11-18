@@ -5,24 +5,24 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace Domain.Entities
 {
     [Table("Usuarios")]
     public class User
     {
-        //public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
-        public string Telefone { get; set; }
-        public string NomeCompleto { get; set; }
-
+        public string? Telefone { get; set; }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
         [Key]
-        public string Cpf {  get; set; }
-        public string Rg { get; set; }
+        public string? Cpf {  get; set; }
+        public string? Rg { get; set; }
         public int Tipo { get; set; }
-        public DateTime DataCriacao { get; set; }
 
     }
 }

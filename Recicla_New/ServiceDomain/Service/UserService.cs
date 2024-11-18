@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace ServiceDomain.Service
 {
-    public class UsuarioService : IUsuarioService
+    public class UserService : IUserService
     {
-        public readonly IUsuarioRepository _usuarioRepository;
+        public readonly IUserRepository _usuarioRepository;
 
-        public UsuarioService(IUsuarioRepository usuarioRepository)
+        public UserService(IUserRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
         }
@@ -31,6 +31,10 @@ namespace ServiceDomain.Service
         public User GetUsuario(int id)
         {
             return _usuarioRepository.GetUsuario(id);
+        }
+        public User UsuarioPorEmail(string email)
+        {
+            return _usuarioRepository.UsuarioPorEmail(email);
         }
 
         public void InsertUsuario(User usuario)

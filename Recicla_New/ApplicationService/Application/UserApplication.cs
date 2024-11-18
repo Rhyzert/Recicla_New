@@ -9,11 +9,11 @@ using Domain.Entities;
 
 namespace ApplicationService.Application
 {
-    public class UsuarioApplication : IUsuarioApplication
+    public class UserApplication : IUserApplication
     {
-        public readonly IUsuarioService _usuarioService;
+        public readonly IUserService _usuarioService;
 
-        public UsuarioApplication(IUsuarioService usuarioService)
+        public UserApplication(IUserService usuarioService)
         {
             _usuarioService = usuarioService;
         }
