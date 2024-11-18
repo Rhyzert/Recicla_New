@@ -4003,24 +4003,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leofl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\leofl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+      "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-      "outputPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\obj\\",
+      "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4087,7 +4082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

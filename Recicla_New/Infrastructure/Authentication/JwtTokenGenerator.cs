@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Reflection.Metadata.Ecma335;
 using Infrastructure.Authentication.Interfaces;
 using Microsoft.Extensions.Options;
+using Infrastructure.Interface;
 
 namespace Infrastructure.Authentication
 {
