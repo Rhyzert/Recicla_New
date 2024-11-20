@@ -16,6 +16,8 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Domain.Entities;
+using Domain.AuthDTO;
+using System.ComponentModel.DataAnnotations;
 
 
 
@@ -27,11 +29,13 @@ namespace Application.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly IUsuarioRepository _userRepository;
+        private readonly LoginValidator _loginValidator;
 
-        public AuthenticationController(IUsuarioRepository userRepository, IConfiguration configuration)
+        public AuthenticationController(IUsuarioRepository userRepository, IConfiguration configuration, LoginValidator loginValidator)
         {
             _userRepository = userRepository;
             _configuration = configuration;
+            _loginValidator = loginValidator;
         }
 
 
@@ -69,6 +73,12 @@ namespace Application.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDTO request)
         {
+            var loginValidacao = _loginValidator.ValidateLogin(request);
+
+            if (!loginValidacao.IsValid)
+            {
+                return BadRequest(new { errors = loginValidacao.Errors });
+            }
             var user = _userRepository.LoginUsuario(request.Username, request.Password);
 
             var subject = _configuration["Jwt:Subject"];

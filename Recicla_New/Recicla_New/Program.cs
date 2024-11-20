@@ -10,6 +10,7 @@ using System.Text;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Domain.AuthDTO;
 //using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +27,7 @@ builder.Services.AddCors(options =>
 });
 
 // Add services to the container.
+builder.Services.AddScoped<LoginValidator>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IItemColetadoRepository, ItemColetadoRepository>();
 builder.Services.AddScoped<IColetaRepository, ColetaRepository>();
