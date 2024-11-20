@@ -13,9 +13,13 @@ using System.Runtime.Intrinsics.Arm;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Application.Common.Mapping;
+using Application;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 //using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
 
 //Autorização para requisição com o CORS
 builder.Services.AddCors(options =>
@@ -58,6 +62,29 @@ builder.Services.AddScoped<SqlContext, SqlContext>();
 
 //builder.Services.AddControllers().AddJsonOptions(x =>
 //   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
+/*builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidIssuer = config["Jwt:Issuer"],
+        ValidAudience = config["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!)),
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true
+
+    };
+});*/
+
+builder.Services.AddAuthorization();
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -106,7 +133,14 @@ builder.Services.AddSwaggerGen(c =>
 const string AuthScheme = "cookie"
 builder.Services.AddAuthentication("cookie")
     .AddCookie("cookie");*/
+
 var app = builder.Build();
+
+
+app.UseAuthentication(); 
+app.UseAuthorization();
+// app.MapControllers();
+app.Run();
 
 
 /*app.UseAuthentication();

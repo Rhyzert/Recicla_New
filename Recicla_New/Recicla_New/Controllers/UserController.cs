@@ -58,7 +58,7 @@ namespace DDD.Application.Api.Controllers
             }
         }
 
-        [HttpGet("{login}")]
+/*        [HttpGet("{login}")]
         public IActionResult LoginUsuario(string username ,string passwordt)
         {
             var user = _usuarioApplication.LoginUsuario(username, passwordt);
@@ -69,7 +69,7 @@ namespace DDD.Application.Api.Controllers
 
             // Retorna uma resposta com o usuário ou um token de autenticação
             return Ok(user);
-        }
+        }*/
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

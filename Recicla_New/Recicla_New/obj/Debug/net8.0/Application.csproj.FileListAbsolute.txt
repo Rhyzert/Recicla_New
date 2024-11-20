@@ -450,3 +450,15 @@ C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\Application.pdb
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\Application.genruntimeconfig.cache
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\ref\Application.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\ErrorOr.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Mapster.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Mapster.Core.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\MediatR.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

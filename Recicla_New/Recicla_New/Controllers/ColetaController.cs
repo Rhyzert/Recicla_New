@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Application.Controllers
 {
-    [Route("api/[controller]")]
     [Authorize]
+    [Route("api/[controller]")]
+    
     [ApiController]
     public class ColetaController : ControllerBase
     {

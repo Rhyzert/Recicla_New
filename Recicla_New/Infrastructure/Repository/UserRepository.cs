@@ -23,7 +23,7 @@ namespace Infrastructure.Repository
 
         public User UsuarioPorLogin(string login)
         {
-            var usuario = _context.Usuarios.FirstOrDefault(x => x.Login == login);
+            var usuario = _context.Usuarios.FirstOrDefault(x => x.Username == login);
             return usuario;
         }
 
@@ -45,7 +45,7 @@ namespace Infrastructure.Repository
         {
             try
             {
-                return _context.Usuarios.FirstOrDefault(u => u.Login == username && u.Password == password);
+                return _context.Usuarios.FirstOrDefault(u => u.Username == username && u.Password == password);
             }
             catch (Exception ex)
             {

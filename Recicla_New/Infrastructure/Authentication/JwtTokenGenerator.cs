@@ -9,47 +9,49 @@ using Microsoft.IdentityModel.Tokens;
 using System.Reflection.Metadata.Ecma335;
 using Infrastructure.Authentication.Interfaces;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
+using Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace Infrastructure.Authentication
 {
-    public class JwtTokenGenerator : IJwtTokenGenerator
+/*    public class JwtTokenGenerator : IJwtTokenGenerator
     {
-        private readonly JwtSettings _jwtSettings;
-        private readonly IDateTimeProvider _dateTimeProvider;
+        private readonly IConfiguration _configuration;
 
-        public JwtTokenGenerator(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtOptions)
+        public JwtTokenGenerator(IConfiguration configuration)
         {
-            _dateTimeProvider = dateTimeProvider;
-            _jwtSettings = jwtOptions.Value;
+            _configuration = configuration;
 
         }
 
-        public string GenerateToken(Guid userId, string nome, string sobrenome)
+        public string GenerateToken(User user)
         {
-            var signingCredentials = new SigningCredentials(
-                new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(_jwtSettings.Secret)),
-                SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, nome+" " + sobrenome),
-                new Claim(JwtRegisteredClaimNames.GivenName , nome),
-                new Claim(JwtRegisteredClaimNames.FamilyName , sobrenome),
+                new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt.Subject"]),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("Id", user.Id.ToString()),
+                new Claim("Username", user.Username.ToString()),
 
             };
 
-            var securityToken = new JwtSecurityToken(
-                issuer: _jwtSettings.Issuer,
-                audience: _jwtSettings.Audience,
-                expires: _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpireMinutes),
-                claims: claims,
-                signingCredentials: signingCredentials);
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            return new JwtSecurityTokenHandler().WriteToken(securityToken);
+            var token = new JwtSecurityToken(
+                _configuration["Jwt:Issuer"],
+                _configuration["Jwt:Audience"],
+                claims,
+                expires: DateTime.UtcNow.AddMinutes(60),
+                signingCredentials: signIn);
+
+            string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+            return Ok(new { Token = tokenValue, User = user });
 
         }
 
 
-    }
+    }*/
 }
