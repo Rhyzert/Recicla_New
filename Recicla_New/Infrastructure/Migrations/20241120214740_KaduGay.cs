@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class KaduGay : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -64,9 +64,8 @@ namespace Infrastructure.Migrations
                 name: "Usuarios",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Login = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -112,7 +111,9 @@ namespace Infrastructure.Migrations
                     DataChegada = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DataSaida = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     VeiculoId = table.Column<int>(type: "int", nullable: false),
-                    ColetadorId = table.Column<int>(type: "int", nullable: false)
+                    ColetadorId = table.Column<int>(type: "int", nullable: false),
+                    Latitude = table.Column<float>(type: "real", nullable: false),
+                    Longitude = table.Column<float>(type: "real", nullable: false)
                 },
                 constraints: table =>
                 {

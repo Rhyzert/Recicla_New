@@ -29,11 +29,35 @@ namespace Infrastructure.Repository
             }
         }
 
+        public Usuario UsuarioPorUsername(string username)
+        {
+            try
+            {
+                return _context.Usuarios.FirstOrDefault(u => u.Username == username);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public Usuario UsuarioPorEmail(string email)
+        {
+            try
+            {
+                return _context.Usuarios.FirstOrDefault(u => u.Email == email);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public Usuario LoginUsuario(string username, string password)
         {
             try
             {
-                return _context.Usuarios.FirstOrDefault(u => u.Login == username && u.Password == password);
+                return _context.Usuarios.FirstOrDefault(u => u.Username == username && u.Password == password);
             }
             catch (Exception ex)
             {
