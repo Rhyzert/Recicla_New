@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class KaduGay : Migration
+    public partial class Recicla : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,6 +27,44 @@ namespace Infrastructure.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Coletadores", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Coletas",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Cidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CEP = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Numero = table.Column<int>(type: "int", nullable: false),
+                    Bairro = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Complemento = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataChegada = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataSaida = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Latitude = table.Column<float>(type: "real", nullable: false),
+                    Longitude = table.Column<float>(type: "real", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Coletas", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Estados",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Sigla = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Latitude = table.Column<float>(type: "real", nullable: false),
+                    Longitude = table.Column<float>(type: "real", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Estados", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -97,42 +135,6 @@ namespace Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Coletas",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Cidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CEP = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Numero = table.Column<int>(type: "int", nullable: false),
-                    Bairro = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Complemento = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataChegada = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataSaida = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    VeiculoId = table.Column<int>(type: "int", nullable: false),
-                    ColetadorId = table.Column<int>(type: "int", nullable: false),
-                    Latitude = table.Column<float>(type: "real", nullable: false),
-                    Longitude = table.Column<float>(type: "real", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Coletas", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Coletas_Coletadores_ColetadorId",
-                        column: x => x.ColetadorId,
-                        principalTable: "Coletadores",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Coletas_Veiculos_VeiculoId",
-                        column: x => x.VeiculoId,
-                        principalTable: "Veiculos",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Lixos",
                 columns: table => new
                 {
@@ -141,17 +143,11 @@ namespace Infrastructure.Migrations
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cor = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Peso = table.Column<float>(type: "real", nullable: true),
-                    TipoId = table.Column<int>(type: "int", nullable: false),
-                    ColetaId = table.Column<int>(type: "int", nullable: true)
+                    TipoId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Lixos", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Lixos_Coletas_ColetaId",
-                        column: x => x.ColetaId,
-                        principalTable: "Coletas",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Lixos_TipoReciclaveis_TipoId",
                         column: x => x.TipoId,
@@ -159,21 +155,6 @@ namespace Infrastructure.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Coletas_ColetadorId",
-                table: "Coletas",
-                column: "ColetadorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Coletas_VeiculoId",
-                table: "Coletas",
-                column: "VeiculoId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lixos_ColetaId",
-                table: "Lixos",
-                column: "ColetaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Lixos_TipoId",
@@ -185,6 +166,15 @@ namespace Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Coletadores");
+
+            migrationBuilder.DropTable(
+                name: "Coletas");
+
+            migrationBuilder.DropTable(
+                name: "Estados");
+
+            migrationBuilder.DropTable(
                 name: "ItensColetados");
 
             migrationBuilder.DropTable(
@@ -194,16 +184,10 @@ namespace Infrastructure.Migrations
                 name: "Usuarios");
 
             migrationBuilder.DropTable(
-                name: "Coletas");
+                name: "Veiculos");
 
             migrationBuilder.DropTable(
                 name: "TipoReciclaveis");
-
-            migrationBuilder.DropTable(
-                name: "Coletadores");
-
-            migrationBuilder.DropTable(
-                name: "Veiculos");
         }
     }
 }

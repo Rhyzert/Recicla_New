@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20241120214740_KaduGay")]
-    partial class KaduGay
+    [Migration("20241124205359_Recicla")]
+    partial class Recicla
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,9 +44,6 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ColetadorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Complemento")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -71,14 +68,7 @@ namespace Infrastructure.Migrations
                     b.Property<int>("Numero")
                         .HasColumnType("int");
 
-                    b.Property<int>("VeiculoId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ColetadorId");
-
-                    b.HasIndex("VeiculoId");
 
                     b.ToTable("Coletas");
                 });
@@ -120,6 +110,33 @@ namespace Infrastructure.Migrations
                     b.ToTable("Coletadores");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Estado", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<float>("Latitude")
+                        .HasColumnType("real");
+
+                    b.Property<float>("Longitude")
+                        .HasColumnType("real");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Sigla")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estados");
+                });
+
             modelBuilder.Entity("Domain.Entities.ItemColetado", b =>
                 {
                     b.Property<int>("Id")
@@ -157,9 +174,6 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("ColetaId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Cor")
                         .HasColumnType("nvarchar(max)");
 
@@ -174,8 +188,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ColetaId");
 
                     b.HasIndex("TipoId");
 
@@ -277,31 +289,8 @@ namespace Infrastructure.Migrations
                     b.ToTable("Veiculos");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Coleta", b =>
-                {
-                    b.HasOne("Domain.Entities.Coletador", "Coletador")
-                        .WithMany()
-                        .HasForeignKey("ColetadorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Domain.Entities.Veiculo", "Veiculo")
-                        .WithMany()
-                        .HasForeignKey("VeiculoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Coletador");
-
-                    b.Navigation("Veiculo");
-                });
-
             modelBuilder.Entity("Domain.Entities.Lixo", b =>
                 {
-                    b.HasOne("Domain.Entities.Coleta", null)
-                        .WithMany("LixosColetados")
-                        .HasForeignKey("ColetaId");
-
                     b.HasOne("Domain.Entities.TipoReciclavel", "Tipo")
                         .WithMany()
                         .HasForeignKey("TipoId")
@@ -309,11 +298,6 @@ namespace Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Tipo");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Coleta", b =>
-                {
-                    b.Navigation("LixosColetados");
                 });
 #pragma warning restore 612, 618
         }

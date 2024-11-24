@@ -17,9 +17,6 @@ namespace Domain.Entities
         public string Complemento { get; set; }
         public string DataChegada { get; set; }
         public string DataSaida { get; set; }
-        public Veiculo Veiculo { get; set; }
-        public Coletador Coletador { get; set; }
-        public List<Lixo> LixosColetados { get; set; }
         public float Latitude { get; set; } 
         public float Longitude { get; set; } 
 

@@ -29,6 +29,7 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 builder.Services.AddScoped<LoginValidator>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IEstadoRepository, EstadoRepository>();
 builder.Services.AddScoped<IItemColetadoRepository, ItemColetadoRepository>();
 builder.Services.AddScoped<IColetaRepository, ColetaRepository>();
 builder.Services.AddScoped<IVeiculoRepository, VeiculoRepository>();
@@ -36,6 +37,7 @@ builder.Services.AddScoped<IColetadorRepository, ColetadorRepository>();
 
 //Dependency Injection Application
 builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
+builder.Services.AddScoped<IEstadoApplication, EstadoApplication>();
 builder.Services.AddScoped<IItemColetadoApplication, ItemColetadoApplication>();
 builder.Services.AddScoped<IColetaApplication, ColetaApplication>();
 builder.Services.AddScoped<IVeiculoApplication, VeiculoApplication>();
@@ -45,6 +47,7 @@ builder.Services.AddScoped<IColetadorApplication, ColetadorApplication>();
 
 //Dependency Injection Service
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IEstadoService, EstadoService>();
 builder.Services.AddScoped<IItemColetadoService, ItemColetadoService>();
 builder.Services.AddScoped<IColetaService, ColetaService>();
 builder.Services.AddScoped<IVeiculoService, VeiculoService>();

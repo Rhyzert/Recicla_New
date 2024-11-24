@@ -19,6 +19,7 @@ namespace Infrastructure
  
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Estado> Estados { get; set; }
         public DbSet<ItemColetado> ItensColetados { get; set; }
         public DbSet<Coleta> Coletas { get; set; }
         public DbSet<Veiculo> Veiculos { get; set; }
