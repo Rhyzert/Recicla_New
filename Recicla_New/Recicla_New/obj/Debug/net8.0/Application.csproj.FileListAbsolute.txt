@@ -450,3 +450,4 @@ C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\Application.pdb
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\Application.genruntimeconfig.cache
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Recicla_New\obj\Debug\net8.0\ref\Application.dll
+D:\KaduSuperGay\Recicla_New\Recicla_New\Recicla_New\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
