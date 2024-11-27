@@ -7,9 +7,9 @@ namespace Domain.Entities
     public class TipoReciclavel
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Tipo { get; set; }
-        public string Peso { get; set; }
+        [Required]
         public string Descricao { get; set; }
 
     }

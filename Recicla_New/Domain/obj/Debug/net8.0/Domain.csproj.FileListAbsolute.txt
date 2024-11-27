@@ -43,3 +43,18 @@ C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\refi
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\Domain\obj\Debug\net8.0\ref\Domain.dll

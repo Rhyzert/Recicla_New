@@ -71,6 +71,7 @@ namespace Infrastructure.Repository
             }
         }
 
+
         public void DeleteColeta(Coleta coleta)
         {
             try

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,14 +89,14 @@
         }
       }
     },
-    "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,8 +114,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               }
             }
           }

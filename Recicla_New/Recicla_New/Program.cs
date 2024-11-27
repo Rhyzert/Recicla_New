@@ -15,7 +15,7 @@ using Domain.AuthDTO;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var config =  builder.Configuration;
+var config = builder.Configuration;
 
 //Autorização para requisição com o CORS
 builder.Services.AddCors(options =>
@@ -28,6 +28,8 @@ builder.Services.AddCors(options =>
 
 // Add services to the container.
 builder.Services.AddScoped<LoginValidator>();
+builder.Services.AddScoped<ITipoLixoRepository, TipoLixoRepository>();
+builder.Services.AddScoped<ICaminhaoRepository, CaminhaoRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IEstadoRepository, EstadoRepository>();
 builder.Services.AddScoped<IItemColetadoRepository, ItemColetadoRepository>();
@@ -36,6 +38,8 @@ builder.Services.AddScoped<IVeiculoRepository, VeiculoRepository>();
 builder.Services.AddScoped<IColetadorRepository, ColetadorRepository>();
 
 //Dependency Injection Application
+builder.Services.AddScoped<ITipoLixoApplication, TipoLixoApplication>();
+builder.Services.AddScoped<ICaminhaoApplication, CaminhaoApplication>();
 builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
 builder.Services.AddScoped<IEstadoApplication, EstadoApplication>();
 builder.Services.AddScoped<IItemColetadoApplication, ItemColetadoApplication>();
@@ -46,6 +50,8 @@ builder.Services.AddScoped<IColetadorApplication, ColetadorApplication>();
 
 
 //Dependency Injection Service
+builder.Services.AddScoped<ITipoLixoService, TipoLixoService>();
+builder.Services.AddScoped<ICaminhaoService, CaminhaoService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IEstadoService, EstadoService>();
 builder.Services.AddScoped<IItemColetadoService, ItemColetadoService>();

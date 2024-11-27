@@ -1,15 +1,15 @@
-﻿using ServiceDomain.Notificador.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Infrastructure.Notificador.Interface;
 
-namespace ServiceDomain.Notificador.Service
+namespace Infrastructure.Notificador.Service
 {
     public abstract class NotificadorDecorator : INotificador
     {
-        protected INotificador _notificador;
+        protected readonly INotificador _notificador;
 
         public NotificadorDecorator(INotificador notificador)
         {
@@ -19,6 +19,11 @@ namespace ServiceDomain.Notificador.Service
         public virtual void EnviarMensagem(string mensagem)
         {
             _notificador.EnviarMensagem(mensagem);
+        }
+
+        public List<string> ObterMensagens()
+        {
+            return _notificador.ObterMensagens();
         }
     }
 }

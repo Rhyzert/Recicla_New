@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jreTgSDeaxs=",
+  "dgSpecHash": "5lC/we6ZTP0=",
   "success": true,
-  "projectFilePath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leofl\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\leofl\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
