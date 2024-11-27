@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ServiceDomain.Notificador.Interface;
+using Infrastructure.Notificador.Interface;
 
-namespace ServiceDomain.Notificador.Service
+namespace Infrastructure.Notificador.Service
 {
     public class NotificadorBase : INotificador
     {

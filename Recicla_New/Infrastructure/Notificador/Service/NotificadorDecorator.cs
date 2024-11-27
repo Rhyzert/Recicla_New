@@ -1,11 +1,11 @@
-﻿using ServiceDomain.Notificador.Interface;
+﻿using Infrastructure.Notificador.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServiceDomain.Notificador.Service
+namespace Infrastructure.Notificador.Service
 {
     public abstract class NotificadorDecorator : INotificador
     {
