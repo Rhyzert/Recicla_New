@@ -5,21 +5,21 @@ using System;
 
 namespace Infrastructure.Repository
 {
-    public class ColetaRepository : IColetaRepository
+    public class CaminhaoRepository : ICaminhaoRepository
     {
 
         private readonly SqlContext _context;
 
-        public ColetaRepository(SqlContext context)
+        public CaminhaoRepository(SqlContext context)
         {
             _context = context;
         }
 
-        public Coleta GetColeta(int id)
+        public Caminhao GetCaminhao(int id)
         {
             try
             {
-                return _context.Coletas.Find(id);
+                return _context.Caminhoes.Find(id);
             }
             catch (Exception ex)
             {
@@ -28,11 +28,11 @@ namespace Infrastructure.Repository
             }
         }
 
-        public List<Coleta> GetColetas()
+        public List<Caminhao> GetCaminhoes()
         {
             try
             {
-                return _context.Coletas.ToList();
+                return _context.Caminhoes.ToList();
             }
             catch (Exception ex)
             {
@@ -41,11 +41,11 @@ namespace Infrastructure.Repository
 
         }
 
-        public void InsertColeta(Coleta coleta)
+        public void InsertCaminhao(Caminhao coletador)
         {
             try
             {
-                _context.Coletas.Add(coleta);
+                _context.Caminhoes.Add(coletador);
                 _context.SaveChanges();
             }
             catch (Exception ex)
@@ -56,11 +56,11 @@ namespace Infrastructure.Repository
         }
 
 
-        public void UpdateColeta(Coleta coleta)
+        public void UpdateCaminhao(Caminhao coletador)
         {
             try
             {
-                _context.Entry(coleta).State = EntityState.Modified;
+                _context.Entry(caminhao).State = EntityState.Modified;
                 _context.SaveChanges();
 
             }
@@ -71,33 +71,29 @@ namespace Infrastructure.Repository
             }
         }
 
-        public void InsertColetaClone(int eixo, float capacidadeColeta)
+        public void InsertCaminhaoCloneSp(string cidade)
         {
             try
             {
-                Coleta coleta = new Coleta();
-                coleta.Cidade = "São Paulo";
-                coleta.CapacidadeCarga = capacidadeColeta;
-                coleta.Cidade = "São Paulo";
+                Caminhao original = new Caminhao
+                {
+                    Cidade = "Rio de Janeiro",
+                    Modelo = "Volvo FH",
+                    Placa = "ABC-1234"
+                };
 
-                Coleta coletaClone = (Coleta)coleta.Clone();
-                coletaClone.EixoTransporte
-                _context.Entry(coleta).State = EntityState.Modified;
-                _context.SaveChanges();
+                Caminhao clonePrototype = (Caminhao) original.Clone();
+                clonePrototype.Cidade = cidade;
 
             }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
+            catch (Exception ex) { throw ex; }
         }
 
-        public void DeleteColeta(Coleta coleta)
+        public void DeleteCaminhao(Caminhao caminhao)
         {
             try
             {
-                _context.Set<Coleta>().Remove(coleta);
+                _context.Set<Caminhao>().Remove(caminhao);
                 _context.SaveChanges();
             }
             catch (Exception ex)
