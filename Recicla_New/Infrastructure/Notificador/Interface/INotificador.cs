@@ -8,6 +8,7 @@ namespace Infrastructure.Notificador.Interface
 {
     public interface INotificador
     {
+        List<string> ObterMensagens();
         void EnviarMensagem(string mensagem);
     }
 }

@@ -1,4 +1,4 @@
-﻿public sealed class TipoReciclavel
+public sealed class TipoReciclavel
 {
     private static TipoReciclavel _instance;
     private static readonly object _lock = new();

@@ -8,25 +8,23 @@ using System.Threading.Tasks;
 namespace Infrastructure.Notificador.Service
 {
     //Decorator
-    public class NotificadorComEmail : NotificadorDecorator
+    public class NotificadorPlaca : NotificadorDecorator
     {
-        public NotificadorComEmail(INotificador notificador) : base(notificador) { }
+        public NotificadorPlaca(INotificador notificador) : base(notificador) { }
 
         public override void EnviarMensagem(string mensagem)
         {
-            base.EnviarMensagem(mensagem);
-            Console.WriteLine($"Enviando mensagem também por e-mail: {mensagem}");
+            base.EnviarMensagem($"{mensagem} - relacionado à placa");
         }
     }
 
-    public class NotificadorComSms : NotificadorDecorator
+    public class NotificadorModelo : NotificadorDecorator
     {
-        public NotificadorComSms(INotificador notificador) : base(notificador) { }
+        public NotificadorModelo(INotificador notificador) : base(notificador) { }
 
         public override void EnviarMensagem(string mensagem)
         {
-            base.EnviarMensagem(mensagem);
-            Console.WriteLine($"Enviando mensagem também por SMS: {mensagem}");
+            base.EnviarMensagem($"{mensagem} - relacionado ao modelo");
         }
     }
-}
+  }
