@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Infrastructure.Notificador.Interface;
 using System;
 
 namespace Infrastructure.Interface
@@ -10,6 +11,6 @@ namespace Infrastructure.Interface
         public void InsertCaminhao(Caminhao caminhao);
         public void UpdateCaminhao(Caminhao caminhao);
         public void DeleteCaminhao(Caminhao caminhao);
-        public void InsertCaminhaoCloneSp(string cidade);
+        public List<string> InsertCaminhaoCloneSp(string placaUm, string placaDois, string modeloUm = "", string modeloDois = "");
     }
 }

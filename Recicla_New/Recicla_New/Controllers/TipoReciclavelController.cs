@@ -47,33 +47,6 @@ namespace Application.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult InsertTipoReciclavel(TipoReciclavel tipoReciclavel)
-        {
-            try
-            {
-                _tipoReciclavelsRepository.InsertTipoReciclavel(tipoReciclavel);
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [HttpPut]
-        public IActionResult UpdateTipoReciclavel(TipoReciclavel tipoReciclavel)
-        {
-            try
-            {
-                _tipoReciclavelsRepository.UpdateTipoReciclavel(tipoReciclavel);
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteTipoReciclavel(int id)

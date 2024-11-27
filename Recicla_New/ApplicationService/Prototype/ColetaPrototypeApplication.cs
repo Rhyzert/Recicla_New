@@ -18,32 +18,6 @@ namespace ApplicationService.Prototype
             _context = context;
         }
 
-        public  void PrototypeColeta()
-        {
 
-            var coletaOriginal = new Coleta
-            {
-                Cidade = "Marília",
-                CEP = "17525-902",
-                Endereco = "",
-                Numero = 1001,
-                Bairro = "Marília",
-                Complemento = "",
-                DataChegada = "",
-                DataSaida = "",
-                Latitude = 0,
-                Longitude = 0
-            };
-
-            
-            _context.Coletas.Add(coletaOriginal);
-            _context.SaveChanges();
-
-            // Cria uma cópia e manipula
-            var coletaClone = (Coleta)coletaOriginal.Clone();
-            coletaClone.Cidade = "Rio de Janeiro";
-            context.Coletas.Add(coletaClone);
-            context.SaveChanges();
-        }
     }
 }

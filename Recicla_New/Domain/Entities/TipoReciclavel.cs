@@ -1,38 +1,16 @@
-﻿public sealed class TipoReciclavel
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Entities
 {
-    private static TipoReciclavel _instance;
-    private static readonly object _lock = new();
-
-    // Propriedades para armazenar informações
-    public int Id { get; private set; }
-    public string Descricao { get; private set; }
-
-    // Construtor privado para evitar instâncias externas
-    private TipoReciclavel() { }
-
-    // Método para obter a instância única
-    public static TipoReciclavel GetInstance()
+    [Table("TipoReciclaveis")]
+    public class TipoReciclavel
     {
-        if (_instance == null)
-        {
-            lock (_lock)
-            {
-                if (_instance == null)
-                {
-                    _instance = new TipoReciclavel();
-                }
-            }
-        }
-        return _instance;
-    }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        [Required]
+        public string Descricao { get; set; }
 
-    // Método para inicializar os campos
-    public void Configurar(int id, string descricao)
-    {
-        if (_instance != null)
-        {
-            Id = id;
-            Descricao = descricao;
-        }
     }
 }

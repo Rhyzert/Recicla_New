@@ -4230,24 +4230,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leofl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\leofl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
+      "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
+      "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
       "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\obj\\",
+      "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4262,17 +4257,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj"
+            "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
+              "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj"
             },
-            "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+            "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
-              "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
+            "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+              "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
             }
           }
         }
@@ -4285,7 +4280,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4330,12 +4325,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.100, 9.0.100]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4344,60 +4333,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Azure.Identity' 1.10.3 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Azure.Identity' 1.10.3 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Identity.Client' 4.56.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Identity.Client' 4.56.0 tem uma baixa vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-x674-v45j-fwxw",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.Formats.Asn1' 5.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-447r-wph3-92pm",
-      "libraryId": "System.Formats.Asn1",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

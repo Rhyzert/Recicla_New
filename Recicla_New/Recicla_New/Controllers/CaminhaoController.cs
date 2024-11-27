@@ -1,38 +1,107 @@
-public sealed class TipoReciclavel
+
+using ApplicationService.Interface;
+using Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Application.Controllers
 {
-    private static TipoReciclavel _instance;
-    private static readonly object _lock = new();
-
-    // Propriedades para armazenar informações
-    public int Id { get; private set; }
-    public string Descricao { get; private set; }
-
-    // Construtor privado para evitar instâncias externas
-    private TipoReciclavel() { }
-
-    // Método para obter a instância única
-    public static TipoReciclavel GetInstance()
+    [Route("api/[controller]")]
+    [Authorize]
+    [ApiController]
+    public class CaminhaoController : ControllerBase
     {
-        if (_instance == null)
+        readonly ICaminhaoApplication _caminhaoApplication;
+
+        public CaminhaoController(ICaminhaoApplication caminhaoApplication)
         {
-            lock (_lock)
+            _caminhaoApplication = caminhaoApplication;
+        }
+
+        [HttpGet]
+        public IActionResult GetCaminhoes()
+        {
+            try
             {
-                if (_instance == null)
-                {
-                    _instance = new TipoReciclavel();
-                }
+                var caminhao = _caminhaoApplication.GetCaminhoes();
+                return Ok(caminhao);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
-        return _instance;
-    }
 
-    // Método para inicializar os campos
-    public void Configurar(int id, string descricao)
-    {
-        if (_instance != null)
+        [HttpGet("{id}")]
+        public IActionResult GetCaminhao(int id)
         {
-            Id = id;
-            Descricao = descricao;
+            try
+            {
+                var caminhao = _caminhaoApplication.GetCaminhao(id);
+                return Ok(caminhao);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
+
+        [HttpPost]
+        public IActionResult InsertCaminhao(Caminhao caminhao)
+        {
+            try
+            {
+                _caminhaoApplication.InsertCaminhao(caminhao);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("prototype")]
+        public IActionResult InsertCaminhaoCloneSp(string placaUm, string placaDois, string modeloUm = "", string modeloDois = "")
+        {
+            try
+            {
+                var mensagens = _caminhaoApplication.InsertCaminhaoCloneSp(placaUm, placaDois, modeloUm, modeloDois);
+                return Ok(new { Sucesso = true, Mensagens = mensagens });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult UpdateCaminhao(Caminhao caminhao)
+        {
+            try
+            {
+                _caminhaoApplication.UpdateCaminhao(caminhao);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteCaminhao(int id)
+        {
+            try
+            {
+                _caminhaoApplication.DeleteCaminhao(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }

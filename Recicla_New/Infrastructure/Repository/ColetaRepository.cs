@@ -71,27 +71,6 @@ namespace Infrastructure.Repository
             }
         }
 
-        public void InsertColetaClone(int eixo, float capacidadeColeta)
-        {
-            try
-            {
-                Coleta coleta = new Coleta();
-                coleta.Cidade = "São Paulo";
-                coleta.CapacidadeCarga = capacidadeColeta;
-                coleta.Cidade = "São Paulo";
-
-                Coleta coletaClone = (Coleta)coleta.Clone();
-                coletaClone.EixoTransporte
-                _context.Entry(coleta).State = EntityState.Modified;
-                _context.SaveChanges();
-
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }
 
         public void DeleteColeta(Coleta coleta)
         {

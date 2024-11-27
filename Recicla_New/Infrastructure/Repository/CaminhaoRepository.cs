@@ -1,7 +1,10 @@
 ﻿using Domain.Entities;
 using Infrastructure.Interface;
+using Infrastructure.Notificador.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Numerics;
+using Infrastructure.Notificador.Service;
 
 namespace Infrastructure.Repository
 {
@@ -56,7 +59,7 @@ namespace Infrastructure.Repository
         }
 
 
-        public void UpdateCaminhao(Caminhao coletador)
+        public void UpdateCaminhao(Caminhao caminhao)
         {
             try
             {
@@ -71,22 +74,52 @@ namespace Infrastructure.Repository
             }
         }
 
-        public void InsertCaminhaoCloneSp(string cidade)
+        public List<string> InsertCaminhaoCloneSp(string placaUm, string placaDois, string modeloUm = "", string modeloDois = "")
         {
             try
             {
+                List<string> mensagens;
+                INotificador notificador = new NotificadorBase();
+
+
                 Caminhao original = new Caminhao
                 {
                     Cidade = "Rio de Janeiro",
                     Modelo = "Volvo FH",
                     Placa = "ABC-1234"
                 };
+                _context.Entry(original).State = EntityState.Added;
 
-                Caminhao clonePrototype = (Caminhao) original.Clone();
-                clonePrototype.Cidade = cidade;
+                Caminhao clonePrototypeUm = (Caminhao)original.Clone();
+
+                clonePrototypeUm.Placa = placaUm;
+                if (modeloUm != "")
+                {
+                    notificador = new NotificadorModelo(notificador);
+                    notificador.EnviarMensagem($"Modelo especificado: {modeloUm}");
+
+
+                }
+
+                Caminhao clonePrototypeDois = (Caminhao)original.Clone();
+                clonePrototypeDois.Placa = placaDois;
+
+                _context.Caminhoes.Add(original);
+                _context.Caminhoes.Add(clonePrototypeUm);
+                _context.Caminhoes.Add(clonePrototypeDois);
+                _context.SaveChanges();
+
+                mensagens = notificador.ObterMensagens();
+                mensagens.Add("Caminhões clonados e inseridos com sucesso!");
+                return mensagens;
+
 
             }
-            catch (Exception ex) { throw ex; }
+            catch (DbUpdateException ex)
+            {
+                Console.WriteLine(ex.InnerException?.Message ?? ex.Message);
+                throw;
+            }
         }
 
         public void DeleteCaminhao(Caminhao caminhao)

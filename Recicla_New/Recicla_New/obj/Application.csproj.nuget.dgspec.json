@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj": {}
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
         "projectName": "ApplicationService",
-        "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
               }
             }
           }
@@ -50,7 +46,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -91,36 +87,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,7 +131,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -186,36 +172,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,8 +206,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               }
             }
           }
@@ -244,7 +220,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -285,36 +261,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\Application.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Recicla_New\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Recicla_New\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -329,17 +295,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ApplicationService\\ApplicationService.csproj"
               },
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj"
               }
             }
           }
@@ -352,7 +318,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -397,12 +363,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -411,25 +371,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
+    "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
+        "projectUniqueName": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
         "projectName": "ServiceDomain",
-        "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
+        "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\ServiceDomain.csproj",
         "packagesPath": "C:\\Users\\leofl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\ServiceDomain\\obj\\",
+        "outputPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\ServiceDomain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leofl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -444,11 +400,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\leofl\\OneDrive\\Documents\\Projeto\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Projeto Querino MVVM Kotlin\\Recicla_New\\Recicla_New\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -461,7 +417,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -490,18 +446,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

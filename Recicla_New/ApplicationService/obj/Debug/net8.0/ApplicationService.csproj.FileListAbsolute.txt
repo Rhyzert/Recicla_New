@@ -64,3 +64,25 @@ C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ApplicationService\obj\Debug
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.pdb
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.genruntimeconfig.cache
 C:\Users\carlo\Source\Repos\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ref\ApplicationService.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.csproj.AssemblyReference.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.AssemblyInfoInputs.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.AssemblyInfo.cs
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.csproj.CoreCompileInputs.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.sourcelink.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\refint\ApplicationService.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ApplicationService.deps.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ApplicationService.runtimeconfig.json
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ApplicationService.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ApplicationService.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\Domain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\Infrastructure.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ServiceDomain.dll
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\Domain.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\ServiceDomain.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\bin\Debug\net8.0\Infrastructure.pdb
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\Applicat.04A62F56.Up2Date
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ApplicationService.genruntimeconfig.cache
+D:\Projeto Querino MVVM Kotlin\Recicla_New\Recicla_New\ApplicationService\obj\Debug\net8.0\ref\ApplicationService.dll
