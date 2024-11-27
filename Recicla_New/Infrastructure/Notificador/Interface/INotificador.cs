@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServiceDomain.Notificador.Interface
+namespace Infrastructure.Notificador.Interface
 {
     public interface INotificador
     {

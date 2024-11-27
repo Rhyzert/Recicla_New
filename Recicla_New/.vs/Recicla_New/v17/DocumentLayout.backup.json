@@ -1,154 +1,239 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\KaduGay\\Recicla_New\\Recicla_New\\",
+  "WorkspaceRootPath": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\tiporeciclavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tiporeciclavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\caminhaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\caminhaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\veiculoapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\veiculoapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\icaminhaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\icaminhaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\usuarioapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\usuarioapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\icoletarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\icoletarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\servicedomain\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\servicedomain\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\servicedomain\\service\\lixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\lixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\servicedomain\\interface\\ilixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\ilixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\servicedomain\\interface\\icoletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\icoletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\lixoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\lixoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\iitemcoletadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\iitemcoletadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\domain\\entities\\itemcoletado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\itemcoletado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\repository\\lixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\lixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\lixorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\repository\\coletarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\coletarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\coletarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\repository\\tiporeciclavelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\tiporeciclavelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\veiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\veiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\interface\\itiporeciclavelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\itiporeciclavelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\coletador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\coletador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|c:\\kadugay\\recicla_new\\recicla_new\\infrastructure\\repository\\coletadorrepoitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\lixo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\lixo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\coletadorrepoitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\coletadorrepoitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|c:\\kadugay\\recicla_new\\recicla_new\\domain\\entities\\coleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\coleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\coleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\tiporeciclavelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\tiporeciclavelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\lixocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\lixocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\coletadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\coletadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|c:\\kadugay\\recicla_new\\recicla_new\\recicla_new\\controllers\\itemcoletadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\itemcoletadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\tiporeciclavelapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\tiporeciclavelapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\itemcoletadoapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\itemcoletadoapplicatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\coletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\application\\coletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\coletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\application\\coletadorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\coletadorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Prototype\\ColetaPrototypeApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApplicationService\\Prototype\\ColetaPrototypeApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\iveiculoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\iveiculoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\icoletadorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\icoletadorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\authdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\authdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\itiporeciclavelapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\itiporeciclavelapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\coletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\ilixoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\ilixoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\coletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\coletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|c:\\kadugay\\recicla_new\\recicla_new\\applicationservice\\interface\\icoletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\notificador\\interface\\inotificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\notificador\\interface\\inotificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\authdto\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\authdto\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\authdto\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\authdto\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReciclaNew/True/SqlTable/dbo.Estados.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leofl\\AppData\\Local\\Temp\\eagd4eei..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\itemcoletadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\itemcoletadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\repository\\estadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\estadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\iestadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\iestadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\interface\\iestadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\iestadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\estadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\estadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\application\\estadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\estadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\interface\\iestadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\iestadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\application\\itemcoletadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\itemcoletadoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\interface\\icoletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\icoletaapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\itemcoletado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\itemcoletado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124205310_cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241124205310_cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\lixocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\lixocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\coletadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\coletadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA99BB40-0DC6-4A02-A38D-E7AFB1F35FD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124203221_cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241124203221_cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\interface\\icoletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\icoletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\interface\\iitemcoletadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\iitemcoletadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReciclaNew/True/SqlTable/dbo.Usuarios.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\tiporeciclavelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\tiporeciclavelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\lixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\lixoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241120214526_Cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241120214526_Cuzin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interface\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3986889-42CC-4B0D-A9C2-AEB9D893A253}|Recicla_New\\Application.csproj|solutionrelative:recicla_new\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\application\\usuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\application\\usuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\applicationservice\\interface\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E7297B-A1CB-42B2-8EF3-4EC93F9A1096}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\interface\\iusuarioapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\servicedomain\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A7AB70-491D-468D-A94B-E4D81D208508}|ServiceDomain\\ServiceDomain.csproj|solutionrelative:servicedomain\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|d:\\kadusupergay\\recicla_new\\recicla_new\\infrastructure\\migrations\\20241124205359_recicla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03DD9290-06E5-4EFD-A816-7C205F18621B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241124205359_recicla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ColetaPrototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\ColetaPrototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,7 +243,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,459 +267,719 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Program.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
-              "RelativeToolTip": "Recicla_New\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBgAAABEAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LixoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\LixoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\LixoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:34:21.191Z",
+              "WhenOpened": "2024-11-27T02:44:21.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VeiculoApplicatio.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\VeiculoApplicatio.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\VeiculoApplicatio.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\VeiculoApplicatio.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\VeiculoApplicatio.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Title": "ICaminhaoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ICaminhaoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\ICaminhaoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ICaminhaoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\ICaminhaoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:33:12.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "ServiceDomain\\Service\\UsuarioService.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\UsuarioService.cs",
-              "RelativeToolTip": "ServiceDomain\\Service\\UsuarioService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:01:18.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IUsuarioService.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IUsuarioService.cs",
-              "RelativeToolTip": "ServiceDomain\\Interface\\IUsuarioService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:57:42.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Interface\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Interface\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:56:42.501Z",
+              "WhenOpened": "2024-11-27T02:29:23.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UsuarioRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\UsuarioRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Title": "CaminhaoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\CaminhaoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\CaminhaoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\CaminhaoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\CaminhaoRepository.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAswFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:55:16.158Z",
+              "WhenOpened": "2024-11-27T02:26:11.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUsuarioApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IUsuarioApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IUsuarioApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IUsuarioApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\IUsuarioApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TipoReciclavel.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\TipoReciclavel.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TipoReciclavel.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\TipoReciclavel.cs",
+              "RelativeToolTip": "Domain\\Entities\\TipoReciclavel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:50.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioApplicatio.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplicatio.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\UsuarioApplicatio.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplicatio.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\UsuarioApplicatio.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:42:32.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:45:35.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LixoService.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\LixoService.cs",
-              "RelativeDocumentMoniker": "ServiceDomain\\Service\\LixoService.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\LixoService.cs",
-              "RelativeToolTip": "ServiceDomain\\Service\\LixoService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:58:01.515Z",
+              "WhenOpened": "2024-11-24T20:55:53.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ILixoService.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\ILixoService.cs",
-              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\ILixoService.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\ILixoService.cs",
-              "RelativeToolTip": "ServiceDomain\\Interface\\ILixoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Lixo.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Lixo.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Lixo.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Lixo.cs",
+              "RelativeToolTip": "Domain\\Entities\\Lixo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:00:35.307Z",
+              "WhenOpened": "2024-11-04T14:40:16.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Coletador.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coletador.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Coletador.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coletador.cs",
+              "RelativeToolTip": "Domain\\Entities\\Coletador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:38:15.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Caminhao.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Caminhao.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Caminhao.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Caminhao.cs",
+              "RelativeToolTip": "Domain\\Entities\\Caminhao.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:29:57.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:06:17.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VeiculoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\VeiculoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\VeiculoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\VeiculoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\VeiculoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:33:51.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IColetaRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IColetaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\IColetaRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IColetaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\IColetaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:32:38.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IColetaService.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IColetaService.cs",
-              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IColetaService.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IColetaService.cs",
-              "RelativeToolTip": "ServiceDomain\\Interface\\IColetaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Estado.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Estado.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Estado.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Estado.cs",
+              "RelativeToolTip": "Domain\\Entities\\Estado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:59:12.959Z",
+              "WhenOpened": "2024-11-24T20:21:17.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColetaRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ColetaRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ColetaRepository.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv04AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:23:34.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ColetadorRepoitory.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetadorRepoitory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ColetadorRepoitory.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetadorRepoitory.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ColetadorRepoitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:32:11.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
+              "RelativeToolTip": "Infrastructure\\Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:22:24.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ItemColetado.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ItemColetado.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ItemColetado.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ItemColetado.cs",
-              "RelativeToolTip": "Domain\\Entities\\ItemColetado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Coleta.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coleta.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Coleta.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coleta.cs",
+              "RelativeToolTip": "Domain\\Entities\\Coleta.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA4wCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:00:21.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IItemColetadoApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IItemColetadoApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IItemColetadoApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IItemColetadoApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\IItemColetadoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:41.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LixoApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\LixoApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\LixoApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\LixoApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\LixoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:39:13.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Context.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Context.cs",
-              "RelativeToolTip": "Infrastructure\\Context.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:54:53.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ITipoReciclavelRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ITipoReciclavelRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Interface\\ITipoReciclavelRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\ITipoReciclavelRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Interface\\ITipoReciclavelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:54:09.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TipoReciclavelRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\TipoReciclavelRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\TipoReciclavelRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\TipoReciclavelRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\TipoReciclavelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:53:41.03Z"
+              "WhenOpened": "2024-11-24T20:46:21.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "LixoRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\LixoRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\LixoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\LixoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ColetaPrototypeApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Prototype\\ColetaPrototypeApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Prototype\\ColetaPrototypeApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Prototype\\ColetaPrototypeApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Prototype\\ColetaPrototypeApplication.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:53:33.616Z"
+              "WhenOpened": "2024-11-25T13:28:26.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ColetadorRepoitory.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetadorRepoitory.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ColetadorRepoitory.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetadorRepoitory.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\ColetadorRepoitory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\AuthDTO\\UserDTO.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\UserDTO.cs",
+              "RelativeToolTip": "Domain\\AuthDTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:53:20.414Z"
+              "WhenOpened": "2024-11-20T21:35:29.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ColetaRepository.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetaRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ColetaRepository.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\ColetaRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\ColetaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\AuthDTO\\LoginDTO.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\LoginDTO.cs",
+              "RelativeToolTip": "Domain\\AuthDTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:53:05.954Z"
+              "WhenOpened": "2024-11-20T21:35:02.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Coleta.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coleta.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Coleta.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Coleta.cs",
-              "RelativeToolTip": "Domain\\Entities\\Coleta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ColetaApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetaApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Application\\ColetaApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetaApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Application\\ColetaApplication.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:52:27.6Z"
+              "WhenOpened": "2024-11-24T20:27:21.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LixoController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\LixoController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\LixoController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\LixoController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\LixoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:48:38.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ItemColetadoController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ItemColetadoController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\ItemColetadoController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ItemColetadoController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\ItemColetadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:47:58.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 19,
               "Title": "ColetaController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetaController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetaController.cs",
               "RelativeDocumentMoniker": "Recicla_New\\Controllers\\ColetaController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetaController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetaController.cs",
               "RelativeToolTip": "Recicla_New\\Controllers\\ColetaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAACoAAAAAAAAAAAAwwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:45:42.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ColetadorController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetadorController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\ColetadorController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetadorController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\ColetadorController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:45:36.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VeiculoController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\VeiculoController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\VeiculoController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\VeiculoController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\VeiculoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:45:15.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TipoReciclavelController.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\TipoReciclavelController.cs",
-              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\TipoReciclavelController.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\TipoReciclavelController.cs",
-              "RelativeToolTip": "Recicla_New\\Controllers\\TipoReciclavelController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:44:45.474Z"
+              "WhenOpened": "2024-11-20T22:25:52.413Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "IVeiculoApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IVeiculoApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IVeiculoApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IVeiculoApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\IVeiculoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EstadoService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\EstadoService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\EstadoService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\EstadoService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\EstadoService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:58.957Z"
+              "WhenOpened": "2024-11-24T20:24:29.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ITipoReciclavelApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\ITipoReciclavelApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\ITipoReciclavelApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\ITipoReciclavelApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\ITipoReciclavelApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "IEstadoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IEstadoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\IEstadoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IEstadoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\IEstadoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:46.06Z"
+              "WhenOpened": "2024-11-24T20:23:00.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ILixoApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\ILixoApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\ILixoApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\ILixoApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\ILixoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "LoginValidator.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\LoginValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\AuthDTO\\LoginValidator.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\LoginValidator.cs",
+              "RelativeToolTip": "Domain\\AuthDTO\\LoginValidator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:43.735Z"
+              "WhenOpened": "2024-11-20T22:59:43.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "INotificador.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Notificador\\Interface\\INotificador.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Notificador\\Interface\\INotificador.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Notificador\\Interface\\INotificador.cs",
+              "RelativeToolTip": "ServiceDomain\\Notificador\\Interface\\INotificador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:08:17.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ColetaPrototype.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ColetaPrototype.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ColetaPrototype.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ColetaPrototype.cs",
+              "RelativeToolTip": "Domain\\Entities\\ColetaPrototype.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:18:13.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EstadoRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\EstadoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\EstadoRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Repository\\EstadoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\EstadoRepository.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwCIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:22:48.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\EstadoController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\EstadoController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:47:12.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "Domain\\AuthDTO\\ValidationResult.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\AuthDTO\\ValidationResult.cs",
+              "RelativeToolTip": "Domain\\AuthDTO\\ValidationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:00:12.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ColetaService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\ColetaService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\ColetaService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\ColetaService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\ColetaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:25:00.989Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "IColetadorApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetadorApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IColetadorApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetadorApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Interface\\IColetadorApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EstadoApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\EstadoApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Application\\EstadoApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\EstadoApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Application\\EstadoApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:35.611Z"
+              "WhenOpened": "2024-11-24T20:57:49.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ItemColetadoApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ItemColetadoApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Application\\ItemColetadoApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ItemColetadoApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Application\\ItemColetadoApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:07:04.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\leofl\\AppData\\Local\\Temp\\eagd4eei..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T21:14:12.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.Estados [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReciclaNew/True/SqlTable/dbo.Estados.sql",
+              "ToolTip": "dbo.Estados [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T21:14:40.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEstadoService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IEstadoService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IEstadoService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IEstadoService.cs",
+              "RelativeToolTip": "ServiceDomain\\Interface\\IEstadoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:24:38.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IEstadoApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IEstadoApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IEstadoApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IEstadoApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Interface\\IEstadoApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:58:00.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ItemColetadoController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ItemColetadoController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\ItemColetadoController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ItemColetadoController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\ItemColetadoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:37:31.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Program.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Program.cs",
+              "RelativeToolTip": "Recicla_New\\Program.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAADEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:00:48.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:41:27.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ColetadorController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetadorController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\ColetadorController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\ColetadorController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\ColetadorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:37:30.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20241124205359_Recicla.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124205359_Recicla.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241124205359_Recicla.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124205359_Recicla.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241124205359_Recicla.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:54:00.101Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "IColetaApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetaApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetaApplication.cs",
               "RelativeDocumentMoniker": "ApplicationService\\Interface\\IColetaApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetaApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IColetaApplication.cs",
               "RelativeToolTip": "ApplicationService\\Interface\\IColetaApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:41:30.567Z"
+              "WhenOpened": "2024-11-24T20:27:56.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "TipoReciclavelApplicatio.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\TipoReciclavelApplicatio.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\TipoReciclavelApplicatio.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\TipoReciclavelApplicatio.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\TipoReciclavelApplicatio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "ItemColetado.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ItemColetado.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ItemColetado.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Domain\\Entities\\ItemColetado.cs",
+              "RelativeToolTip": "Domain\\Entities\\ItemColetado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:39:41.279Z"
+              "WhenOpened": "2024-11-24T20:55:51.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ColetaApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetaApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\ColetaApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetaApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\ColetaApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAlwCYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:39:12.302Z"
+              "WhenOpened": "2024-11-20T21:36:03.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ItemColetadoApplicatio.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ItemColetadoApplicatio.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\ItemColetadoApplicatio.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ItemColetadoApplicatio.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\ItemColetadoApplicatio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "20241124205310_cuzin.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124205310_cuzin.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241124205310_cuzin.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124205310_cuzin.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241124205310_cuzin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:38:56.486Z"
+              "WhenOpened": "2024-11-24T20:53:10.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ColetadorApplication.cs",
-              "DocumentMoniker": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetadorApplication.cs",
-              "RelativeDocumentMoniker": "ApplicationService\\Application\\ColetadorApplication.cs",
-              "ToolTip": "C:\\KaduGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\ColetadorApplication.cs",
-              "RelativeToolTip": "ApplicationService\\Application\\ColetadorApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 39,
+              "Title": "LixoController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\LixoController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\LixoController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\LixoController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\LixoController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAxwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:38:23.289Z"
+              "WhenOpened": "2024-11-24T20:47:17.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241124203221_cuzin.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124203221_cuzin.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241124203221_cuzin.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241124203221_cuzin.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241124203221_cuzin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:32:21.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IItemColetadoService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IItemColetadoService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IItemColetadoService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IItemColetadoService.cs",
+              "RelativeToolTip": "ServiceDomain\\Interface\\IItemColetadoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:24:41.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IColetaService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IColetaService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IColetaService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IColetaService.cs",
+              "RelativeToolTip": "ServiceDomain\\Interface\\IColetaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:25:01.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TipoReciclavelService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\TipoReciclavelService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\TipoReciclavelService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\TipoReciclavelService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\TipoReciclavelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:08:14.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LixoService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\LixoService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\LixoService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\LixoService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\LixoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:08:13.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Service\\UsuarioService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "ServiceDomain\\Service\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:07:48.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "ServiceDomain\\Interface\\IUsuarioService.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ServiceDomain\\Interface\\IUsuarioService.cs",
+              "RelativeToolTip": "ServiceDomain\\Interface\\IUsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:07:40.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IUsuarioApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IUsuarioApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Interface\\IUsuarioApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Interface\\IUsuarioApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Interface\\IUsuarioApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:07:07.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interface\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Interface\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interface\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:06:52.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\appsettings.json",
+              "RelativeDocumentMoniker": "Recicla_New\\appsettings.json",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\appsettings.json",
+              "RelativeToolTip": "Recicla_New\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T21:39:05.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "dbo.Usuarios [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReciclaNew/True/SqlTable/dbo.Usuarios.sql",
+              "ToolTip": "dbo.Usuarios [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-20T22:01:20.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Recicla_New\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Recicla_New\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Recicla_New\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADgvzwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:30:18.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20241120214526_Cuzin.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241120214526_Cuzin.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241120214526_Cuzin.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\Infrastructure\\Migrations\\20241120214526_Cuzin.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241120214526_Cuzin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:45:26.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UsuarioApplication.cs",
+              "DocumentMoniker": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Application\\UsuarioApplication.cs",
+              "ToolTip": "D:\\KaduSuperGay\\Recicla_New\\Recicla_New\\ApplicationService\\Application\\UsuarioApplication.cs",
+              "RelativeToolTip": "ApplicationService\\Application\\UsuarioApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:09:08.203Z"
             }
           ]
         },
